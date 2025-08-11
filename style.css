@@ -1,0 +1,124 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #eaf6ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.wrapper {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  width: 400px;
+}
+
+.wrapper h1 {
+  text-align: center;
+  color: #1e4b8a;
+  margin-bottom: 3rem;
+}
+
+form .amount,
+form .from,
+form .to {
+  margin-bottom: 1.5rem;
+}
+
+.amount p,
+.from p,
+.to p {
+  margin-bottom: 0.6rem;
+  color: #333;
+  font-weight: 500;
+}
+
+.amount input {
+  width: 100%;
+  padding: 0.6rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+.drop-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.select-box {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: #f3f3f3;
+  border-radius: 6px;
+  padding: 0.4rem 0.6rem;
+}
+
+.select-box img {
+  width: 32px;
+  height: 24px;
+}
+
+.select-box select {
+  border: none;
+  background: transparent;
+  font-size: 1rem;
+  outline: none;
+  cursor: pointer;
+}
+
+.icon {
+  font-size: 1.2rem;
+  color: #1e4b8a;
+  padding: 0 0.5rem;
+}
+
+.exchange-rate {
+  text-align: center;
+  font-weight: bold;
+  color: #1e4b8a;
+  margin: 1.2rem 0;
+  font-size: 1.1rem;
+}
+
+button {
+  width: 100%;
+  padding: 0.7rem;
+  background: #1e4b8a;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #173b6c;
+}
+
+.select-box select::-webkit-scrollbar{
+    width:8px;
+}
+
+.select-box select::-webkit-scrollbar-track{
+    background: #fff;
+}
+
+.select-box select::-webkit-scrollbar-thumb{
+    background: #888;
+    border-radius:8px;
+    border-right:2px solid #fff;
+}
