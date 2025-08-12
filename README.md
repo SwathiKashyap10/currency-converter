@@ -6,7 +6,7 @@ Just select a **From** currency, a **To** currency, enter an amount, and click t
 ---
 
 ## 📸 Preview
-[🎥 Watch Demo](./assets/demo.mp4)
+https://github.com/user-attachments/assets/e62eff0e-0c83-469b-9013-1b90f8ebd94d
 
 ---
 
